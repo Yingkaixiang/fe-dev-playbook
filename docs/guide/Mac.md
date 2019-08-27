@@ -59,3 +59,11 @@ $ open. // 打开当前文件夹
 
 ![](https://img.alicdn.com/tfs/TB1AqoeXUH1gK0jSZSyXXXtlpXa-1224-398.png)
 
+## 实用 App 推荐
+
+### SwitchHosts
+
+### Quiver
+
+### App Cleaner
+

@@ -32,6 +32,10 @@ $ nvm install 11.5.0 // 安装指定的Node.js版本
 $ nvm alias default 11 // 设置默认使用的版本
 ```
 
+## yarn
+
+使用 [yarn](https://yarnpkg.com/en/docs/install#mac-stable) 可以让我们快速安装 npm，同时它还提供了更多的功能使用。
+
 ## nrm
 
 使用[nrm](https://github.com/Pana/nrm)可以让我们来切换不同的npm源而不用单独安装cnpm之类的库
@@ -62,6 +66,12 @@ $ nrm use taobao // 使用taobao的源作为默认的npm源
 ```
 $ npm install http-server -g // 安装http-server模块
 $ http-server . -p 8080 // 监听8080端口，以当前目录作为静态资源目录
+```
+
+我们可以在我们的 `zsh` 中配置一个 alias 来快速使用带有参数的命令
+
+```
+$ alias http-server="http-server -o -c-1
 ```
 
 ### promisify
